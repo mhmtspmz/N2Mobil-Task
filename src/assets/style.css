@@ -1,0 +1,268 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
+.rectangle {
+  width: 6px;
+  height: 40px;
+  border-radius: 0px 6px 6px 0px;
+  background-color: #4f359b;
+  margin-right: 2px;
+  margin-left: 0px;
+}
+
+.custom-size {
+  width: 126.43px;
+  height: 27px;
+  gap: 12px;
+}
+
+.text {
+  padding-left: 12px;
+  color: #4f359b;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.custom-icon {
+  border: 1px;
+  border-color: blue;
+  width: 228px;
+  height: 64px;
+  gap: 8px;
+}
+
+
+.yazı {
+  width: 86px;
+  height: 20px;
+  position: absolute;
+  top: 44px;
+  left: 297px;
+  font-weight: 600px;
+  font-size: 20px;
+}
+
+.konteynir {
+  background-color: red;
+  width: Fixed (1, 124px);
+  height: Hug (370px);
+  top: 99px;
+  margin-left: 288px;
+  gap: 24px;
+}
+
+.kart {
+  width: 310.67px;
+  height: 330px;
+  gap: 32px;
+}
+.kart1 {
+  width: 358.67px;
+  height: 370px;
+  padding: 20px 24px;
+  border-radius: 12px;
+  color: #d8d9dd;
+  border: 1px solid;
+  gap: 10px;
+}
+
+.yuvarlak-kutu {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.yuvarlak-kutu1 {
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+}
+
+.custom-class {
+  width: 310.67px;
+  height: 100px;
+}
+
+.custom-container {
+  width: 122px;
+  height: 62px;
+  top: 21px;
+  left: 124px;
+  gap: 8px;
+}
+
+.isim {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  gap: 8px;
+  color: #26303e;
+  padding-top: 4px;
+}
+
+.mailtel {
+  padding-top: 4px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5c6672;
+  width: 200px;
+}
+
+/* TODOS */
+
+.custom-class1 {
+  width: 228px;
+  height: auto;
+  left: 16px;
+  gap: 20px;
+}
+
+.todosName {
+  width: 186px;
+  height: 27px;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 500;
+}
+
+.custom-size2 {
+  width: 126.43px;
+  height: 27px;
+  gap: 12px;
+}
+
+.yazi1 {
+  width:300px;
+  height: 20px;
+  position: absolute;
+  top: 44px;
+  left: 297px;
+  font-weight: 600px;
+  font-size: 20px;
+}
+
+.todosCheck {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  height: 20px;
+  padding-left: 12px;
+  color: #485b69;
+}
+
+/* post css */
+
+.custom-box {
+  width: 1124px;
+  height: max-content;
+}
+
+.custom-box1 {
+  width: 1124px;
+  height: fit-content;
+  padding: 20px 32px;
+  border-bottom: 1px solid #d8d9dd; 
+  gap: 12px; }
+
+.custom-text {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #26303e;
+}
+
+.custom-text1 {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #000000b2;
+}
+
+.detay {
+  width: 67px;
+  height: 20px;
+  padding-top: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2%;
+}
+
+/* albüms css */
+
+.kartAlbum {
+  width: 318.67px;
+  height: 128px;
+}
+
+.albumsText {
+  height: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #26303e;
+}
+
+/* modal */
+
+.yaziKutusu {
+  width: 484px;
+  height: 300px;
+  top: 20px;
+  left: 20px;
+}
+
+.sağOlsun {
+  width: fit-content;
+  height: fit-content;
+  left: 532px;
+  padding: 0px 24px 32px 24px;
+  border: 0px 0px 0px 1px;
+  gap: 20px;
+}
+
+.modalbas {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 20px;
+  letter-spacing: 2%;
+}
+
+.modalYaz {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.modalCom {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+ 
